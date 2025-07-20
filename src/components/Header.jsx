@@ -35,13 +35,13 @@ export default function Header() {
     }),
     profileFloating: {
       position: 'fixed',
-      top: '2.0rem',
-      right: '2.0rem',
+      top: '3.0rem',
+      right: '2.8rem',
       zIndex: 1000,
     },
     profileImage: {
-      width: '82px',
-      height: '82px',
+      width: '60px',
+      height: '60px',
       objectFit: 'cover',
       borderRadius: '50%',
       display: 'block',
@@ -50,7 +50,7 @@ export default function Header() {
     },
     dropdownMenu: {
       position: 'absolute',
-      top: '85px',
+      top: '65px',
       right: '1.0rem',
       backgroundColor: '#fff',
       borderRadius: '8px',
